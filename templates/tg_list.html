@@ -1,0 +1,14 @@
+<html>
+<head>
+    <title>List</title>
+</head>
+<body>
+    <h2>Tournament & Clubs List</h2>
+    {% for t in all_tours_list %}
+        <h3>Tournament Name: {{ t.name }}</h3>
+        <ul>
+            <li>Golf club Name:{{ t.golfclub.name }}</li>
+        </ul>
+    {% endfor %}
+</body>
+</html>

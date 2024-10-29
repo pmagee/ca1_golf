@@ -1,0 +1,59 @@
+[
+    {
+      "model": "golf_app.golfclub",
+      "pk": 1,
+      "fields": {
+        "name": "St. Andrews Golf Club",
+        "location": "St. Andrews, Scotland",
+        "year_established": 1754
+      }
+    },
+    {
+      "model": "golf_app.golfclub",
+      "pk": 2,
+      "fields": {
+        "name": "Augusta National Golf Club",
+        "location": "Augusta, Georgia",
+        "year_established": 1933
+      }
+    },
+    {
+      "model": "golf_app.member",
+      "pk": 1,
+      "fields": {
+        "name": "John Doe",
+        "date_of_birth": "1985-06-15",
+        "golfclub": 1,
+        "handicap": 10
+      }
+    },
+    {
+      "model": "golf_app.member",
+      "pk": 2,
+      "fields": {
+        "name": "Jane Smith",
+        "date_of_birth": "1990-04-22",
+        "golfclub": 2,
+        "handicap": 15
+      }
+    },
+    {
+      "model": "golf_app.tournament",
+      "pk": 1,
+      "fields": {
+        "name": "The Open Championship",
+        "date": "2024-07-15",
+        "golfclub": 1
+      }
+    },
+    {
+      "model": "golf_app.tournament",
+      "pk": 2,
+      "fields": {
+        "name": "The Masters Tournament",
+        "date": "2024-04-10",
+        "golfclub": 2
+      }
+    }
+  ]
+  

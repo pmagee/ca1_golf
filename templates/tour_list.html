@@ -1,0 +1,11 @@
+<html>
+<head>
+    <title>Tournament List</title>
+</head>
+<body>
+    <h1>Tournament List Page</h1>
+    {% for t in all_tours_list %}
+    <h4>{{ t.name  }},{{ t.date }},{{ t.golfclub }}</h4>
+    {% endfor %}
+</body>
+</html>

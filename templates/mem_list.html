@@ -1,0 +1,11 @@
+<html>
+<head>
+    <title>Member List</title>
+</head>
+<body>
+    <h1>Member List Page</h1>
+    {% for m in all_mems_list %}
+    <h4>{{ m.name  }},{{ m.date_of_birth }},{{ m.golfclub }}</h4>
+    {% endfor %}
+</body>
+</html>
